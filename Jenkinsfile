@@ -2,6 +2,6 @@
 genericPipeline([
     env: "production",
     project: "my-team",
-    awsId: "123456789012", 
+    awsId: "${AWS_ID}", 
     region: "us-west-2"
 ])
