@@ -1,2 +1,7 @@
 @Library('deployment-ops')
-genericPipeline()
+genericPipeline([
+    env: "production",
+    project: "my-team",
+    awsId: "123456789012", 
+    region: "us-west-2"
+])
