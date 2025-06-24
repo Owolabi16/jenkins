@@ -1,7 +1,7 @@
-@Library('deployment-ops')
+@Library('deployment-ops') _
+
 genericPipeline([
-    env: "production",
-    project: "my-team",
-    awsId: "${AWS_ID}", 
-    region: "us-west-2"
+    env: "staging",
+    project: "occasio-hosting",
+    awsId: "${AWS_ID}",
 ])
